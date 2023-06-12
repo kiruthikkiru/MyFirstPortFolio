@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myPortfolio
+    </title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--font awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+               <img src="D:\RUSL\2nd year\1st semi\ICT2204 Web Technologies\ASSIGNMENTS\assign2\pic4.jpg" alt="Picture" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header"><font color="black">
+					<b>HOME</b></font></a></li>
+                    <li><a href="#about"><font color="black"><b>ABOUT</b></font></a></li>
+                    <li><a href="#services"><font color="black"><b>SERVICES</b></font></a></li>
+                    <li><a href="#portfolio"><font color="black"><b>PORTFOLIO</b></font></a></li>
+                    <li><a href="#contact"><font color="black"><b>CONTACT</b></font></a></li>
+                    <i class="fa-solid fa-xmark" onclick=" closemenu() "></i>
+                </ul>
+                
+                <i class="fa-solid fa-bars" onclick=" openmenu()" ></i>
+            </nav>
+            <div class="header-text">
+                <p>Front End Developer - Beginner</p>
+                <h1>Hi, I'm <span>Kiruththika Indiran</span> <br> from Sri Lanka</h1>
+			</div>
+	    </div>
+    
+        
+    
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                   <img src="D:\RUSL\2nd year\1st semi\ICT2204 Web Technologies\ASSIGNMENTS\assign2\pic2.jpg" alt="" class="abt">
+                </div>
+				<div class="about-col-2">
+                    <h1 class="s-title">About Me</h1>
+                    <p>I'm kiruththika,I'm undergraduate of  APPLIED SCIENCE OF RUSL. 
+                        I have the creative skill and design skills. Develop my skill 
+                        by searching for new things and waiting for the opportunity to improve my skill.
+                        surely, I will develop my skill from the intermediate level to the native level!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('Programming')">Programming Languages</p>
+                        <p class="tab-links " onclick="opentab('Education')">Education</p>
+                    </div> 
+                    
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br><b>Designing web/App interfaces</b></li>
+                            <li><span>Web Development</span><br><b>Webapp Development</b></li>
+                            <li><span>App Development</span><br><b>Building Android/iOS apps</b></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="Programming">
+                        <ul>
+                            <li><span>Front - End</span><br>HTML CSS Bootsrap Java Script jQuery</li>
+                            <li><span>Back - End</span><br>C PHP Python MySQL Java </li>
+                            <li><span>App Development</span><br>Kotlin Java</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="Education">
+                        <ul>
+                            <li><span>BSC(Hons)in IT</span><br>Undergraduate - University of RAJARATA</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- services -->
+<div id="services">
+<div class="container">
+        <h1 class="s-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2><b>UI/UX Design</b></h2>
+                <p>User interface (UI) design is the process designers use to build interfaces 
+                   in software or computerized devices, focusing on looks or style. Designers aim 
+                   to create interfaces which users find easy to use and pleasurable.!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2><b>Web Development</b></h2>
+                <p>Web development, also known as website development, refers to the tasks associated with 
+                   creating, building, and maintaining websites and web applications that run online on a browser. 
+                   It may, however, also include web design, web programming, and database management.!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2><b>App Development</b></h2>
+                <p>The app development process includes creating installable applications for the mobile devices and implementing backend services,
+                for instance data access through an API. Testing the application on target devices is also part of the process.!</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="s-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="D:\RUSL\2nd year\1st semi\ICT2204 Web Technologies\ASSIGNMENTS\assign2\pic1.jpg" alt="" class="img1">
+                <div class="layer">
+                    <h3><b>Social media app</b></h3>
+                    <p class="para">Social media is always evolving to satisfy the needs and interests of its users. 
+                                    New social media platforms emerge to serve specific audiences or to offer something different.
+                    </p>
+                       <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="D:\RUSL\2nd year\1st semi\ICT2204 Web Technologies\ASSIGNMENTS\assign2\pic5.jpg" alt="" class="img2">
+                <div class="layer">
+                    <h3><b>Music app</b></h3>
+                    <p class="para">Music is a media player application developed for the iOS, iPadOS, tvOS,
+                        watchOS, macOS, Android, and Windows 11 operating systems by Apple Inc. It can play ...</p>
+                       <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="D:\RUSL\2nd year\1st semi\ICT2204 Web Technologies\ASSIGNMENTS\assign2\pic3.jpg" alt="" class="img3">
+                <div class="layer">
+                    <h3><b>Online shop app</b></h3>
+                    <p class="para">A mobile shopping app is an application that allows customers to browse and buy products or services from a retailer or service provider. 
+                        </p>
+                       <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-envelope"></i>kiruththika3@gmail.com </p>
+                <p><i class="fa-solid fa-phone"></i>0775923643</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="cv.jpg" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- link for the js codes -->
+    <script src="jscode.js"></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxQljELcu7Qyn4WvvQMW_zltx77XcEtoY-Zm3ujToN-B6LAIPPBHvxTNOvcnoNj3t-nfg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        const anime=document.anime
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                   msg.innerHTML = "Message sent successfully"
+                   setTimeout(function(){
+                    msg.innerHTML = ""
+                   },5000)
+                   form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body> 
+</html>
